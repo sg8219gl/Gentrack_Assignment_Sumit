@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GenTrack_Assignment_MeterData\\MyApp\\AppProcessingUsingBatch.csproj": {}
+  },
+  "projects": {
+    "C:\\GenTrack_Assignment_MeterData\\MyApp\\AppProcessingUsingBatch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GenTrack_Assignment_MeterData\\MyApp\\AppProcessingUsingBatch.csproj",
+        "projectName": "AppProcessingUsingBatch",
+        "projectPath": "C:\\GenTrack_Assignment_MeterData\\MyApp\\AppProcessingUsingBatch.csproj",
+        "packagesPath": "C:\\Users\\sumit.gupta3\\.nuget\\packages\\",
+        "outputPath": "C:\\GenTrack_Assignment_MeterData\\MyApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumit.gupta3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.Lambda": {
+              "target": "Package",
+              "version": "[3.3.107.3, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.110.19, )"
+            },
+            "Amazon.CDK": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.DynamoDB": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.ECR": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.Events": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.Events.Targets": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.IAM": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            },
+            "Amazon.CDK.AWS.Lambda.EventSources": {
+              "target": "Package",
+              "version": "[1.32.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

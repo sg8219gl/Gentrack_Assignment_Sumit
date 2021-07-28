@@ -1,0 +1,12 @@
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\bin\Debug\net5.0\MockingUnitTestsDemoApp.Impl.deps.json
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\bin\Debug\net5.0\MockingUnitTestsDemoApp.Impl.dll
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\bin\Debug\net5.0\ref\MockingUnitTestsDemoApp.Impl.dll
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\bin\Debug\net5.0\MockingUnitTestsDemoApp.Impl.pdb
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.csproj.AssemblyReference.cache
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.AssemblyInfoInputs.cache
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.AssemblyInfo.cs
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.csproj.CoreCompileInputs.cache
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.dll
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\ref\MockingUnitTestsDemoApp.Impl.dll
+C:\temp\XUnitMockTestsDemo-master\MockingUnitTestsDemoApp.Impl\obj\Debug\net5.0\MockingUnitTestsDemoApp.Impl.pdb

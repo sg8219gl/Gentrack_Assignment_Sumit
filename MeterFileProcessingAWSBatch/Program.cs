@@ -10,7 +10,7 @@ namespace MyApp
         static void Main(string[] args)
         {
             var app = new App();
-            new SrcStack(app, Constants.APP_NAME, new StackProps());
+            new FileProcessing(app, Constants.APP_NAME, new StackProps());
             app.Synth();
         }
     }

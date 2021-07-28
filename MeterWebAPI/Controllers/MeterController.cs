@@ -27,5 +27,23 @@ namespace MeterWebAPI.Controllers
 
 
         }
+        [HttpGet]
+        public IActionResult GetAllMeterReadingTotal(DateTime readingDate)
+        {
+            var meter = _meterService.GetAll();
+            
+            var _result = (from mt in meter
+                             group mt by mt.MeterName into groupResult
+                             select new
+                             {
+                                 MeterName = groupResult.Key,
+                                 ReadingValue = groupResult.Where(d => d.ReadingDate == readingDate).Sum(f => f.ReadingValue )
+                             }).ToList();
+
+           
+            return Ok(_result);
+
+
+        }
     }
 }

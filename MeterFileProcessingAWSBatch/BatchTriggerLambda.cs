@@ -9,7 +9,7 @@ namespace MyApp
 {
     public static class BatchTriggerLambda 
     {
-        public static Function BatchTriggerLambdaFunction(MyApp.SrcStack stack, string id, 
+        public static Function BatchTriggerLambdaFunction(MyApp.FileProcessing stack, string id, 
                 BatchTriggerLambdaInput batchTriggerLambdaInput, 
                 LambdaBatchExecutionRole lambdaBatchExecutionRole) 
         {

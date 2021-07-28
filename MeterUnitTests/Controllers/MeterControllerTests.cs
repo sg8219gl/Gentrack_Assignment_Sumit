@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Xunit;
 
 namespace MeterDataUnitTest.Tests.Controllers
@@ -27,7 +28,7 @@ namespace MeterDataUnitTest.Tests.Controllers
                 },
                 new MeterData()
                 {
-                 Id = 1,
+                 Id = 2,
                 MeterName = "E1083",
                 ReadingDate= new DateTime(2021, 01, 01),
                 ReadingTime =new TimeSpan(02,30,0),
@@ -46,6 +47,47 @@ namespace MeterDataUnitTest.Tests.Controllers
            
         }
 
-        
+        [Fact]
+        public void GetAllMeterReadingTotal()
+        {
+            //Arrange
+            var mockMeter = new List<MeterData>()
+            {
+                new MeterData()
+                {
+                 Id = 1,
+                MeterName = "M1083",
+                ReadingDate= new DateTime(2021, 01, 01),
+                ReadingTime =new TimeSpan(01,30,0),
+                ReadingValue=7
+                },
+                new MeterData()
+                {
+                 Id = 2,
+                MeterName = "M1083",
+                ReadingDate= new DateTime(2021, 01, 01),
+                ReadingTime =new TimeSpan(02,30,0),
+                ReadingValue=6
+                },
+                new MeterData()
+                {
+                 Id = 3,
+                MeterName = "M1084",
+                ReadingDate= new DateTime(2021, 01, 01),
+                ReadingTime =new TimeSpan(02,30,0),
+                ReadingValue=6
+                }
+            };
+
+            var mockMeterService = new MockMeterService().MockGetAll(mockMeter);
+            var controller = new MeterController(mockMeterService.Object);
+            var _readingDate = new DateTime(2021, 01, 01);
+            var result = controller.GetAllMeterReadingTotal( _readingDate);
+            Assert.NotNull(result);         
+
+
+        }
+
+
     }
 }

@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 
 
 
-namespace MockingUnitTestsDemoApp
+namespace GentrackAssignment
 {
     public class Startup
     {

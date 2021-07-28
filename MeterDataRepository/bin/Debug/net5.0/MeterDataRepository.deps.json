@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MeterDataRepository/1.0.0": {
+        "runtime": {
+          "MeterDataRepository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeterDataRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
